@@ -1,0 +1,789 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url(Imagenes/degradado.png);
+  min-width: 1440px;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content:   center;
+  padding:0;
+  height: 900px;
+  z-index:0;
+}
+
+
+.header{
+  top:0px;
+  position: fixed;
+  height: 100px;
+  width: 1440px;
+  background: rgba(249,254,254,0.1);
+  backdrop-filter: blur(10px);
+  z-index: 10000;
+}
+
+.icon{
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  width:  39.24px;
+  height: 39.24px;
+  z-index:10000;
+}
+
+.Clinica{
+  position: absolute;
+  left: 121px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.4663px;
+  line-height: 17px;
+  color: #444444;
+  z-index: 10000;
+
+}
+
+.LASRETAMAS{
+  position: absolute;
+  left: 189px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15.4663px;
+  line-height: 17px;
+
+z-index: 10000;
+  color: #444444;
+}
+
+.Odontología{
+  position: absolute;
+  left: 657px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.4663px;
+  line-height: 17px;
+
+z-index: 10000;
+  color: #444444;
+}
+
+.Podología{
+  position: absolute;
+  left: 805px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.4663px;
+  line-height: 17px;
+
+z-index: 10000;
+  color: #444444;
+}
+
+.border{
+  position: absolute;
+  left: 934px;
+  top: 70px;
+
+z-index: 10000;
+  height: 20px;
+  border: 0.5px solid #444444;
+}
+
+.Nosotros{
+  position: absolute;
+  left: 984px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.4663px;
+  line-height: 17px;
+
+z-index: 10000;
+  color: #444444;
+}
+
+.Contacto{
+  position: absolute;
+  left: 1104px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.4663px;
+  line-height: 17px;
+
+z-index: 10000;
+  color: #444444;
+}
+
+.Pedir_cita{
+  position: absolute;
+  left: 1239px;
+  top: 59px;
+  z-index: 10000;
+}
+
+.sliderPod{
+  position: absolute;
+  height:550px;
+  width:1181px;
+  top: 190px;
+  left:228px;
+  z-index:2020;
+  display:flex;
+  overflow:hidden;
+}
+
+.podSlide{
+  width:1200px;
+  flex-shrink: 0;
+  margin: 20px 50px;
+  display: flex;
+  transition: transform 1s;
+  transform: translate(X);
+}
+
+.titlePis{
+  position:absolute;
+  top: 40px;
+  left:0px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 55px;
+  color: #333333;
+}
+
+.titleOrtoped{
+  position:absolute;
+  top:40px;
+  left:0px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 55px;
+  color: #333333;  
+}
+
+.titleSil{
+  position:absolute;
+  top:80px;
+  left:0px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 55px;
+  color: #333333;
+}
+
+.titleUñas{
+  position:absolute;
+  top:13px;
+  left:0px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 55px;
+  color: #333333;
+}
+
+.titlePapi{
+  position:absolute;
+  top:40px;
+  left:0px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 55px;
+  color: #333333;
+}
+
+.textPis{
+  position:absolute;
+  top: 182px;
+  left:0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.3169px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.textOrtoped{
+  position: absolute;
+  top: 183px;
+  left:0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.3169px;
+  line-height: 27px;
+  color: #333333;  
+}
+
+.textSil{
+  position:absolute;
+  top:223px;
+  left:0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.3169px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.textUñas{
+  position:absolute;
+  top: 156px;
+  left: 0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.3169px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.textPapi{
+  position:absolute;
+  top:183px;
+  left:0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.3169px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.sliderOdont{
+  position: absolute;
+  height:550px;
+  width:1181px;
+  top: 190px;
+  left:228px;
+  z-index:2020;
+  display:flex;
+  overflow:hidden;
+}
+
+.odontSlide{
+  width: 1200px;
+  flex-shrink: 0;
+  margin: 20px 50px;
+  display:flex;
+  transition: transform 1s;
+  transform: translate(X);
+}
+
+.title-imp{
+  position:absolute;
+  top:26px;
+  left:0px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 55px;
+  color: #333333;
+}
+
+.p-imp{
+  position:absolute;
+  top:168px;
+  left:0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.3169px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.title-orto{
+  position:absolute;
+  top:67px;
+  left:0px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 55px;
+  color: #333333;
+}
+
+.p-orto{
+  position:absolute;
+  top:209px;
+  left:0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.3169px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.title-ped{
+  position:absolute;
+  top:81px;
+  left:0px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 55px;
+  color: #333333;
+}
+
+.p-ped{
+  position:absolute;
+  top:223px;
+  left:0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.3169px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.title-ATM{
+  position:absolute;
+  top:40px;
+  left:0px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 55px;
+  color: #333333;
+}
+
+.p-ATM{
+  position:absolute;
+  top:182px;
+  left:0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.3169px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.title-Per{
+  position:absolute;
+  top:40px;
+  left:0px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 55px;
+  color: #333333;
+}
+
+.p-Per{
+  position:absolute;
+  top:182px;
+  left:0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.3169px;
+  line-height: 27px;
+  color: #333333;
+}
+
+.title-COR{
+  position:absolute;
+  top:0px;
+  left:0px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 55px;
+  color: #333333;
+}
+
+.p-Cor{
+  position:absolute;
+  top:142px;
+  left:0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.3169px;
+  line-height: 27px;
+  color: #333333;
+}
+
+  #arrowr11{
+  position: absolute;
+  height: 45.96px;
+  width:45.96px;
+  top: 427px;
+  right: 70px;
+}
+
+  #arrowl11{
+  position:absolute;
+  height: 45.96px;
+  width:45.96px;
+  top: 427px;
+  left: 70px;
+}
+
+.odontSlide img{
+  position:absolute;
+  top: 5px;
+  left: 617px;
+  height: 509px;
+  width: 367px;
+}
+
+.podSlide img{
+  position:absolute;
+  top:5px;
+  left: 617px;
+  height:509px;
+  width: 367px;
+}
+
+.hover0{
+  position: absolute;
+  top:788px;
+  left:228px; 
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.hover1{
+  position: absolute;
+  top:788px;
+  left:382px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.hover2{
+  position: absolute;
+  top:788px;
+  left:548px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.hover3{
+  position: absolute;
+  top:788px;
+  left:757px; 
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.hover4{
+  position: absolute;
+  top:788px;
+  left:967px; 
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.hover5{
+  position: absolute;
+  top:788px;
+  left:1137px; 
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.hover0pod{
+  position:absolute;
+  top:788px;
+  left:302px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.hover1pod{
+  position:absolute;
+  top:788px;
+  left:493px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.hover2pod{
+  position:absolute;
+  top:788px;
+  left:686px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.hover3pod{
+  position:absolute;
+  top:788px;
+  left:863px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.hover4pod{
+  position:absolute;
+  top:788px;
+  left:1053px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.barhover{
+  position:absolute;
+  top:827px;
+  left:224px;
+  width:994px;
+  height:2px;
+  display: flex;
+}
+
+.barhoverpod{
+  position:absolute;
+  top:827px;
+  left:302px;
+  width:994px;
+  height:2px;
+  display: flex;
+}
+
+.linehover{
+  position:absolute;
+  visibility: visible;
+  left:0px;
+  width: 94px;
+  height:0px;
+  border: 1px solid #1B77BB;
+  transition: transform 1s;
+  transform: translate(X);
+}
+
+
+.bluetint{
+  color: #1B77BB;
+}
+
+.sliderOdont.shownext0 .odontSlide{
+  transform: translateX(0);
+}
+
+.sliderOdont.shownext1 .odontSlide{
+  transform: translateX( calc(-100% - 100px));
+}
+
+.sliderOdont.shownext2 .odontSlide{
+  transform: translateX( calc(-200% - 200px));
+}
+
+.sliderOdont.shownext3 .odontSlide{
+  transform: translateX( calc(-300% - 300px));
+}
+
+.sliderOdont.shownext4 .odontSlide{
+  transform: translateX( calc(-400% - 400px));
+}
+
+.sliderOdont.shownext5 .odontSlide{
+  transform: translateX( calc(-500% - 500px));
+}
+
+
+.barhoverpod.nexthov0 .linehover{
+  transform: translateX(0);
+}
+
+.barhoverpod.nexthov1 .linehover{
+  transform: translateX(191px);
+}
+
+.barhoverpod.nexthov2 .linehover{
+  transform: translateX(384px);
+}
+
+.barhoverpod.nexthov3 .linehover{
+  transform: translateX(561px);
+}
+
+.barhoverpod.nexthov4 .linehover{
+  transform: translateX(751px);
+}
+
+
+.barhover.nexthov0 .linehover{
+  transform: translateX(0);
+}
+
+.barhover.nexthov1 .linehover{
+  transform: translateX(156px);
+}
+
+.barhover.nexthov2 .linehover{
+  transform: translateX(344px);
+}
+
+.barhover.nexthov3 .linehover{
+  transform: translateX(553px);
+}
+
+.barhover.nexthov4 .linehover{
+  transform: translateX(743px);
+}
+
+.barhover.nexthov5 .linehover{
+  transform: translateX(900px);
+}
+
+.sliderPod.shownext0 .podSlide{
+  transform: translateX(0);
+}
+
+.sliderPod.shownext1 .podSlide{
+  transform: translateX( calc(-100% - 100px));
+}
+
+.sliderPod.shownext2 .podSlide{
+  transform: translateX( calc(-200% - 200px));
+}
+
+.sliderPod.shownext3 .podSlide{
+  transform: translateX( calc(-300% - 300px));
+}
+
+.sliderPod.shownext4 .podSlide{
+  transform: translateX( calc(-400% - 400px));
+}

@@ -1,0 +1,1228 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url(Imagenes/degradado.png);
+  min-width: 1440px;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content:   center;
+  padding:0;
+  height: 5936px;
+  z-index:0;
+}
+
+
+.header{
+  top:0px;
+  position: fixed;
+  height: 100px;
+  width: 1440px;
+  background: rgba(249,254,254,0.1);
+  backdrop-filter: blur(10px);
+  z-index: 10000;
+}
+
+.icon{
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  width:  39.24px;
+  height: 39.24px;
+  z-index:10000;
+}
+
+.Clinica{
+  position: absolute;
+  left: 121px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.4663px;
+  line-height: 17px;
+  color: #444444;
+  z-index: 10000;
+
+}
+
+.LASRETAMAS{
+  position: absolute;
+  left: 189px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15.4663px;
+  line-height: 17px;
+
+z-index: 10000;
+  color: #444444;
+}
+
+.Odontología{
+  position: absolute;
+  left: 657px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.4663px;
+  line-height: 17px;
+
+z-index: 10000;
+  color: #444444;
+}
+
+.Podología{
+  position: absolute;
+  left: 805px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.4663px;
+  line-height: 17px;
+
+z-index: 10000;
+  color: #444444;
+}
+
+.border{
+  position: absolute;
+  left: 934px;
+  top: 70px;
+
+z-index: 10000;
+  height: 20px;
+  border: 0.5px solid #444444;
+}
+
+.Nosotros{
+  position: absolute;
+  left: 984px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.4663px;
+  line-height: 17px;
+
+z-index: 10000;
+  color: #444444;
+}
+
+.Contacto{
+  position: absolute;
+  left: 1104px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.4663px;
+  line-height: 17px;
+
+z-index: 10000;
+  color: #444444;
+}
+
+.Pedir_cita{
+  position: absolute;
+  left: 1239px;
+  top: 59px;
+  z-index: 10000;
+}
+.slider{
+  position: absolute;
+  top: 190px;
+  width: 1443px;
+  height: 517px;
+  z-index: 25;
+  overflow:hidden;
+}
+.Carrpg{
+  position: absolute;
+  left: 71px;
+  top: 68px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70.9236px;
+  line-height: 81px;
+z-index: 50;
+  color: #333333;
+}
+
+.Carrpp{
+  position: absolute;
+  left: 71px;
+  top: 366px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 27px;
+z-index: 50;
+  color: #333333;
+}
+
+
+.slides{
+  width:400%;
+  height:517px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 1443px;
+  transition: 2s;
+}
+
+.slide img{
+  width: 1443px;
+  height: 517px;
+  z-index: 25;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -50%;
+}
+
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div{
+  border: 2px solid #FFFFFF;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: #FFFFFF;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: #FFFFFF;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: #FFFFFF;
+}
+
+.arrowdown{
+  position: absolute;
+  top:810px;
+  left:116px;
+}
+
+.LASRETAMASAZUL{
+position:absolute;
+top:934px;
+color:#1B77BB;
+
+font-family: Monserrat;
+font-style: normal;
+font-weight: 500;
+letter-spacing: 0.1em;
+font-size: 16px;
+line-height: 20px;
+}
+
+.QUIEN{
+  position:absolute;
+  top: 952.73px;
+  color: #333333;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53.0826px;
+  line-height: 71px
+}
+.fstpar{
+position:absolute;
+top:1066px;
+color:#333333;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 30px;
+text-align: center;
+}
+
+.icon1img{
+  position:absolute;
+  top:1513px;
+  left:231px;
+}
+
+.icon1p{
+position:absolute;
+top:1599px;
+left:197px;
+color:#333333;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18.3169px;
+line-height: 22px;
+text-align: center;
+}
+
+.icon2img{
+  position:absolute;
+  top:1513px;
+  left:453px;
+}
+
+.icon2p{
+position:absolute;
+top:1599px;
+left:428px;
+color:#333333;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18.3169px;
+line-height: 22px;
+text-align: center;
+}
+
+.icon3img{
+  position:absolute;
+  top:1513px;
+  left:696px;
+}
+
+.icon3p{
+position:absolute;
+top:1599px;
+left:624px;
+color:#333333;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18.3169px;
+line-height: 22px;
+text-align: center;
+}
+
+.icon4img{
+  position:absolute;
+  top:1513px;
+  left:922.69px;
+}
+
+.icon4p{
+position:absolute;
+top:1599px;
+left:877px;
+color:#333333;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18.3169px;
+line-height: 22px;
+text-align: center;
+}
+
+.icon5img{
+  position:absolute;
+  top:1513px;
+  left:1178.55px;
+}
+
+.icon5p{
+position:absolute;
+top:1599px;
+left:1126px;
+color:#333333;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18.3169px;
+line-height: 22px;
+text-align: center;
+}
+
+.container1{
+  position:absolute;
+  top:1794px;
+  height: 894px;
+  width: 1440px;
+  background: #FFFFFF;
+  z-index:150;
+}
+
+.sndpar{
+  position: absolute;
+  top:115px;
+  left:70px;
+  color: #333333;
+  z-index:125;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 59px;
+}
+
+.slider2{
+  position:absolute;
+  top: 374px;
+  width: 1440px;
+  height: 520px;
+  overflow:hidden;
+}
+
+.slides2{
+  position:absolute;
+  left:70px;
+  top:0px;
+  width:220%;
+  height:390px;
+  overflow: hidden;
+  display:flex;
+}
+
+#arrowr1{
+  position:absolute;
+  top: 400px;
+  width:45.96px;
+  height:45.96px;
+  left:130px;
+}
+
+#arrowl1{
+  position:absolute;
+  top: 400px;
+  width:45.96px;
+  height:45.96px;
+  left:70px;
+}
+
+.slide2{
+  width: calc(100% - 100px);
+  margin:20px 50px;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: transform 1s;
+  transform: translateX(0);
+}
+
+.slides2.shownext0 .slide2{
+  transform: translateX(0);
+}
+
+.slides2.shownext1 .slide2{
+  transform: translateX( calc(-100% - 100px));
+}
+
+.slides2.shownext2 .slide2{
+  transform: translateX( calc(-200% - 200px));
+}
+
+.slides2.shownext3 .slide2{
+  transform: translateX( calc(-300% - 300px));
+}
+
+.slide2 img{
+  width: 583px;
+  height: 390px;
+  z-index: 125;
+}
+
+.manual-btn2:not(:last-child){
+  margin-right: 100px;
+}
+
+
+.slides2 #arrow1:checked ~ .first2{
+  margin-right: -50%;
+}
+
+.slides2 #arrow2:checked ~ .first2{
+  margin-right: 50%;
+}
+
+.podología-btn{
+  position:absolute;
+  top:2879px;
+  left:121px;
+  width:553px;
+  height:610px;
+
+  background:#FEFEFE;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.15);
+  border-radius:20px;
+}
+
+.podologia-Podologia{
+
+position: absolute;
+left: 45px;
+top: 28px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 53px;
+line-height: 71px;
+color: #333333;
+}
+
+.podología-btn img{
+  position: absolute;
+  left: 438px;
+  top: 39px;
+}
+
+.podología-btn p{
+position: absolute;
+left: 45px;
+top: 190px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18.3169px;
+line-height: 30px;
+color: #333333;
+}
+
+.activable-pod{
+position:absolute;
+top:554px;
+left:45px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 15.4663px;
+line-height: 17px;
+display: flex;
+align-items: center;
+letter-spacing: 0.08em;
+color: #1B77BB;
+}
+
+.odontología-btn{
+  position:absolute;
+  top:2879px;
+  left:766px;
+  width:553px;
+  height:610px;
+
+  background:#FEFEFE;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.15);
+  border-radius:20px;
+}
+
+.odontología-Odontologia{
+position: absolute;
+left: 45px;
+top: 28px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 53px;
+line-height: 71px;
+color: #333333;
+}
+
+.odontología-btn img{
+  position: absolute;
+  left: 478px;
+  top: 36px;
+}
+
+.odontología-btn p{
+position: absolute;
+left: 45px;
+top: 190px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18.3169px;
+line-height: 30px;
+color: #333333;
+}
+
+.activable-odont{
+position:absolute;
+top:554px;
+left:45px;
+
+cursor:pointer;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 15.4663px;
+line-height: 17px;
+display: flex;
+align-items: center;
+letter-spacing: 0.08em;
+color: #1B77BB;
+}
+
+.popup-odont{
+  display:none;
+  z-index: 1999;
+  width:1400px;
+  height:900px;
+  top:2600px;
+  left: 0px;
+  background: #FFFFFF;
+  border-radius:20px;
+}
+
+.sliderodont{
+  position: absolute;
+  width: 1440px;
+  height: 900px;
+  z-index: 2000;
+  display:flex;
+  overflow:hidden;
+}
+
+.slides2-odont{
+  position:absolute;
+  top:0px;
+  width:700%;
+  height:508px;
+  display: flex;
+}
+
+
+
+.Nosotras{
+position:absolute;
+left:667px;
+top:3775px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 0%;
+letter-spacing: 0.1em;
+color: #1B77BB;
+}
+
+.Equip-Profesional{
+position:absolute;
+left:496px;
+top:3793.76px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 53px;
+line-height: 71px;
+text-align: center;
+color: #333333;
+}
+
+.ICON-Amalia img{
+  position:absolute;
+  top:3976.57px;
+  left:190.8px;
+  height:237.72px;
+  width:172.3px;
+}
+
+.ICON-Beatriz img{
+  position:absolute;
+  top:3972.63px;
+  left:614.28px;
+  height:241.66px;
+  width:172.85px;
+}
+
+.ICON-Ana img{
+  position:absolute;
+  top:3969px;
+  left:1037.77px;
+  height:245.28px;
+  width:178.08px;
+}
+
+.nombre-amalia{
+  position:absolute;
+  top:4246px;
+  left:169px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30.7532px;
+  line-height: 36px;
+  text-align: center;
+  color: #333333;
+}
+
+.nombre-beatriz{
+  position:absolute;
+  top:4246px;
+  left:595px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30.7532px;
+  line-height: 36px;
+  text-align: center;
+  color: #333333;
+}
+
+.nombre-ana{
+  position:absolute;
+  top:4246px;
+  left:1018px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30.7532px;
+  line-height: 36px;
+  text-align: center;
+  color: #333333;
+}
+
+.descrip-amalia{
+  position:absolute;
+  left:180px;
+  top:4333px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.7401px;
+  line-height: 17px;
+  text-align: center;
+  color: #333333;
+}
+
+.descrip-beatriz{
+  position:absolute;
+  left:580px;
+  top:4333px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.7401px;
+  line-height: 17px;
+  text-align: center;
+  color: #333333;
+}
+
+.descrip-ana{
+  position:absolute;
+  left:1004px;
+  top:4333px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.7401px;
+  line-height: 17px;
+  text-align: center;
+  color: #333333;
+}
+
+.Contacto-2{
+  position:absolute;
+  left:668px;
+  top:4622px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #1B77BB;
+}
+
+.CLINICA-LAS-RETAMAS{
+  position:absolute;
+  left:482px;
+  top:4641.95px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 53px;
+  line-height: 71px;
+  color: #333333;
+}
+
+.title-info{
+  position:absolute;
+  left: 722px;
+  top: 4806px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30.7532px;
+  line-height: 41px;
+  color: #333333;
+}
+
+.direction-info img{
+  position: absolute;
+  height: 45.97761154174805px;
+  width: 30.689167022705078px;
+  left: 724px;
+  top: 4904.3740234375px;
+}
+
+.direction-info p{
+  position:absolute;
+  left: 801px;
+  top: 4904.55859375px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.number-info img{
+  position: absolute;
+  width: 32.31px;
+  height: 29px;
+  left: 723px;
+  top: 5006px;
+}
+
+.number-info div{
+  position:absolute;
+  top: 5009px;
+  left: 801px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+
+  color: #333333;
+}
+
+.mail-info img{
+  position:absolute;
+  height: 23.7998046875px;
+  width: 37.92999267578125px;
+  left: 720px;
+  top: 5091px;
+}
+
+.mail-info div{
+  position: absolute;
+  left: 801px;
+  top: 5090.88232421875px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+
+  color: #333333;
+}
+
+.mapa{
+  position:absolute;
+  height: 450px;
+  width: 600px;
+  left: 719px;
+  top: 5313px;
+  border-radius: 0px;
+
+}
+
+.Formulario{
+  position:absolute;
+  height: 957px;
+  width: 530px;
+  left:121px;
+  top:4806px;
+}
+
+.titleform{
+  position:absolute;
+  top:0px;
+  left:0px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30.7532px;
+  line-height: 41px;
+  color:#333333;
+}
+
+.nombrein{
+  position:absolute;
+  top:99px;
+  width: 530px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  background: transparent;
+  border: none;
+  border-bottom: 0.8931px solid #333333;
+}
+
+.nombreform{
+  position:absolute;
+  top:132.19px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.192px;
+  line-height: 22px;
+  color:#333333;
+}
+
+.telefonoin{
+  position:absolute;
+  top:192.13px;
+  width:530px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  background: transparent;
+  border: none;
+  border-bottom: 0.8931px solid #333333;
+}
+
+.telefonoform{
+  position:absolute;
+  top:225.31px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.192px;
+  line-height: 22px;
+  color:#333333;
+}
+
+.correoin{
+  position:absolute;
+  top:285.25px;
+  width:530px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  background:transparent;
+  border:none;
+  border-bottom: 0.8931px solid #333333;
+}
+
+.correoform{
+  position:absolute;
+  top:318.43px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.192px;
+  line-height: 22px;
+  color:#333333; 
+}
+
+.mensajein{
+  position:absolute;
+  top:507px;
+  width:530px;
+  height:281.87px;
+  resize: none;
+  background-color:transparent;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  background:transparent;
+  border: 0.9264px solid #333333;
+}
+
+.mensajeform{
+  position:absolute;
+  top:809.1px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.192px;
+  line-height: 22px;
+  color:#333333;
+}
+
+.buttonsform{
+  position:absolute;
+  top:391.06px;
+  left:0px;
+  width:412.47px;
+}
+
+.buttonsform label{
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonsform input{
+  display:none;
+}
+
+.buttonsform #locheck{
+  position:absolute;
+  top:0px;
+  left:0px;
+  border-radius: 40px;
+  width: 190.47px;
+  height: 45.96px;
+  text-align: center;
+  border: 1px solid #333333;
+  
+  font-family:Montserrat;
+  font-style: normal;
+  font-weight:500;
+  font-size: 18.192px;
+  line-height:22px;
+  text-transform: uppercase;
+  color:#333333;
+  cursor:pointer;
+}
+
+.buttonsform #lpcheck{
+  position:absolute;
+  top:0px;
+  right:0px;
+  border-radius: 40px;
+  width: 190.47px;
+  height: 45.96px;
+  text-align: center;
+  border: 1px solid #333333;
+  
+  font-family:Montserrat;
+  font-style: normal;
+  font-weight:500;
+  font-size: 18.192px;
+  line-height:22px;
+  text-transform: uppercase;
+  color:#333333;
+  cursor:pointer;
+} 
+
+#pcheck:checked ~ #lpcheck{
+  background-color: #1B77BB;
+  color:#FFFFFF;
+  border:none;  
+}
+
+#ocheck:checked ~ #locheck{
+  background-color: #1B77BB;
+  color: #FFFFFF;
+  border:none;  
+}
+
+.pedircita{
+  display:none;
+}
+
+#lpedircit{
+  position:absolute;
+  top:905px;
+  left:0px;
+  border-radius:40px;
+  width: 147.73px;
+  height: 52.08px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  background-color: #1B77BB;
+
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight:500;
+  font-size: 18.192px;
+  line-height:22px;
+  color:#FFFFFF;
+  cursor:pointer;
+}
+
+.container{
+  display:flexbox;
+  position:absolute;
+  top:856px;
+  left:0px;
+  cursor: pointer;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  color:#333333;
+}
+
+.Def{
+  position:absolute;
+  top:5882px;
+  left:234px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  color:#333333;
+  opacity: 0.3;
+}
+
+.PolPriv{
+  position:absolute;
+  top:5882px;
+  left:510px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  color:#333333;
+  opacity: 0.3;
+}
+
+.AvLeg{
+  position:absolute;
+  top:5882px;
+  left:760px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  color:#333333;
+  opacity: 0.3;
+}
+
+.AvCook{
+  position:absolute;
+  top:5882px;
+  left:916px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  color:#333333;
+  opacity: 0.3;
+}
+
+.Prot{
+  position:absolute;
+  top:5882px;
+  left:1098px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  color:#333333;
+  opacity: 0.3;
+}
+
+.whaimg{
+  position:absolute;
+  top:5197.06px;
+  left:720px;
+}
+
+#whatext{
+  position:absolute;
+  top:5205.06px;
+  left:801px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.input-error{
+  border-color: red;
+}

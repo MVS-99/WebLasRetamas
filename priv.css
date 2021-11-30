@@ -1,0 +1,229 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url(Imagenes/degradado.png);
+  min-width: 1440px;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content:   center;
+  padding:0;
+  height: 3518px;
+  z-index:0;
+}
+
+
+.header{
+  top:0px;
+  position: fixed;
+  height: 100px;
+  width: 1440px;
+  background: rgba(249,254,254,0.1);
+  backdrop-filter: blur(10px);
+  z-index: 10000;
+}
+
+.icon{
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  width:  39.24px;
+  height: 39.24px;
+  z-index:10000;
+}
+
+.Clinica{
+  position: absolute;
+  left: 121px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.4663px;
+  line-height: 17px;
+  color: #444444;
+  z-index: 10000;
+
+}
+
+.LASRETAMAS{
+  position: absolute;
+  left: 189px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15.4663px;
+  line-height: 17px;
+
+z-index: 10000;
+  color: #444444;
+}
+
+.Odontología{
+  position: absolute;
+  left: 657px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.4663px;
+  line-height: 17px;
+
+z-index: 10000;
+  color: #444444;
+}
+
+.Podología{
+  position: absolute;
+  left: 805px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.4663px;
+  line-height: 17px;
+
+z-index: 10000;
+  color: #444444;
+}
+
+.border{
+  position: absolute;
+  left: 934px;
+  top: 70px;
+
+z-index: 10000;
+  height: 20px;
+  border: 0.5px solid #444444;
+}
+
+.Nosotros{
+  position: absolute;
+  left: 984px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.4663px;
+  line-height: 17px;
+
+z-index: 10000;
+  color: #444444;
+}
+
+.Contacto{
+  position: absolute;
+  left: 1104px;
+  top: 70px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.4663px;
+  line-height: 17px;
+
+z-index: 10000;
+  color: #444444;
+}
+
+.Pedir_cita{
+  position: absolute;
+  left: 1239px;
+  top: 59px;
+  z-index: 10000;
+}
+
+.priv_text{
+    position:absolute;
+    top: 150px;
+    left: 70px;
+    width: 1300px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.4663px;
+    line-height: 19px;
+}
+
+li{
+    margin:10px 0;
+}
+
+.Def{
+  position:absolute;
+  top:3464px;
+  left:234px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  color:#333333;
+  opacity: 0.3;
+}
+
+.PolPriv{
+  position:absolute;
+  top:3464px;
+  left:510px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  color:#333333;
+  opacity: 0.3;
+}
+
+.AvLeg{
+  position:absolute;
+  top:3464px;
+  left:760px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  color:#333333;
+  opacity: 0.3;
+}
+
+.AvCook{
+  position:absolute;
+  top:3464px;
+  left:916px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  color:#333333;
+  opacity: 0.3;
+}
+
+.Prot{
+  position:absolute;
+  top:3464px;
+  left:1098px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.192px;
+  line-height: 22px;
+  color:#333333;
+  opacity: 0.3;
+}
