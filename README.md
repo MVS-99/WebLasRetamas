@@ -1,4 +1,4 @@
 # Clinica las Retamas web implementation
-This is my first attempt as a web developer, it has many flaws and it has great possibilities of optimizing, but i used it to learn about meta values, css and html structure and a whole range of skills.
+Update of the first web page I developed. In this case, I will use the same visual assets (mainly maintaining structure as a whole) but trying to optimize and reshape as much as it is possible.
 
-There is plans to renovate and fully fix the whole web. Probably redesigning in react or vue
+Also, one of the main motivations is to update the web page to an up-to-date framework for easiness of debugging, reproductibility and expansion.
